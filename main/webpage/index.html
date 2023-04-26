@@ -1,0 +1,28 @@
+<!DOCTYPE HTML><html>
+<head>
+  <title>ESP-LORA DASHBOARD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel ="stylesheet" href = "style.css">
+  <script async src="app.js"></script>
+</head>
+<body>
+  <div class="topnav">
+    <h1>ESP-LORA DASHBOARD</h1>
+  </div>
+  <div class="content">
+    <div class="cards">
+      <div class="card temperature">
+        <p class="card-title"><i class="fas fa-thermometer-half"></i> NODE #1 - TEMPERATURE</p>
+        <p><span class="reading"><span id="t1"></span> &deg;C</span></p>
+        <p class="timestamp">Last Reading: <span id="rt1"></span></p>
+      </div>
+      <div class="card humidity">
+        <p class="card-title"><i class="fas fa-tint"></i> NODE #1 - HUMIDITY</p>
+        <p><span class="reading"><span id="h1"></span> &percnt;</span></p>
+        <p class="timestamp">Last Reading: <span id="rh1"></span></p>
+      </div>
+     
+    </div>
+  </div>
+</body>
+</html>

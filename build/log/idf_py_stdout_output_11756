@@ -1,0 +1,8 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "D:/VScode/LORA/ESP32_LORA/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+C:\esp\tools\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SD:\VScode\LORA\ESP32_LORA -BD:\VScode\LORA\ESP32_LORA\build
